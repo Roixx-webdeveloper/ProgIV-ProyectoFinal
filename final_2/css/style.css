@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@font-face {
+    font-family: "Open-sans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+body {
+    background: #FBFBFB;
+    font-family: Open Sans;
+}
+
+.paginas {
+    margin-top: 10px;
+}
+
+
+
+
+#table {
+    margin: 0;
+}
+
+
+
+#div_tabla {
+    height: 375px;
+    overflow-x: auto;
+}
+
+
+
+
+.eliminar, .editar, #btn_insertar, .modal-footer>button {
+    cursor: pointer;
+}
